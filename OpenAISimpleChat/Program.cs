@@ -34,4 +34,4 @@ do
         // Antwoord aan de historie toevoegen
         history.AddMessage(result.Role, result.Content ?? string.Empty);
     }
-} while (!String.IsNullOrEmpty(userInput));
+} while (!string.IsNullOrEmpty(userInput));
